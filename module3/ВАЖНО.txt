@@ -1,0 +1,3 @@
+удалить MainWindow.axaml.cs  и MainWindow.axaml и в папках Data appDbContext.cs поменять
+ на свои данные строку подключения 
+и в папке Models User.cs также поменять строку подключения
