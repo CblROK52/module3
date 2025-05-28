@@ -1,0 +1,33 @@
+
+
+CREATE TABLE public.users (
+    "Id" SERIAL PRIMARY KEY,
+    "Login" text NOT NULL,
+    "Password" text NOT NULL,
+    "IsFirstLogin" bool NOT NULL,
+    "IsAdmin" bool NOT NULL,
+    "IsBlocked" bool NOT NULL,
+    "CounterFailed" int4 NOT NULL,
+    "LastLogin" timestamptz NULL
+);
+
+
+INSERT INTO public.users (
+    "Id",
+    "Login",
+    "Password",
+    "IsFirstLogin",
+    "IsAdmin",
+    "IsBlocked",
+    "CounterFailed",
+    "LastLogin"
+) VALUES (
+    1,
+    'admin',
+    'admin123',
+    false,
+    true,
+    false,
+    0,
+    NOW()
+);

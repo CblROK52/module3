@@ -1,0 +1,4 @@
+Microsoft.EntityFrameworkCore.Tools
+MessageBox.Avalonia
+Npgsql.EntityFrameworkCore.PostgreSQL
+Microsoft.EntityFrameworkCore.Design
